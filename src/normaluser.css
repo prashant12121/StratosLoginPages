@@ -1,0 +1,54 @@
+
+  /* Clear floats after the columns */
+  .row {
+    display: flex;
+  }
+  
+  
+  .column1{
+    flex: 50%;
+    height: 100vh;
+    background-color: rgb(236, 102, 24);
+    position: relative;
+   
+  }
+  
+  .column2{
+    flex: 50%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:gray;
+    
+  }
+  
+  .heading{
+    color: black;
+    font-weight: bold;
+  }
+
+  .input{
+    padding-right: 200px;
+    padding-top:10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom:50px;
+  }
+
+  .avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .shadow{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(230, 211, 190);
+    margin-right: 20px;
+  }
+

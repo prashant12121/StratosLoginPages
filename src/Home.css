@@ -93,11 +93,13 @@
 .email{
   margin-bottom: 15px;
   padding-right: 100px;
+  padding-top: 5px;
   border-radius: 5px;
 }
 
 .password{
   margin-bottom: 15px;
+  padding-top: 5px;
   padding-right: 100px;
   border-radius: 5px;
 }
@@ -109,11 +111,3 @@
 .plabel{
   color:gray;
 }
-
-.container{
-margin-left: 0px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-}
-

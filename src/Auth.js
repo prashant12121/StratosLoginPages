@@ -26,7 +26,7 @@ const Auth = () => {
     return (
         <GoogleOAuthProvider clientId="your_google_client_id">
             <div style={{ padding: '20px', textAlign: 'center' }}>
-                <h5>Or Login Using</h5>
+                <h4>Or Login Using</h4>
                 <GoogleLogin
                     onSuccess={handleGoogleSuccess}
                     onError={error => console.error('Login Failed:', error)}
